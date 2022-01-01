@@ -2796,7 +2796,8 @@ li.comment ol.comment-sub {
 /*-----------------------------------------------------------------*/
 
 #contact {
-	background:url(../images/parallax/contact.jpg) no-repeat;
+	/*background:url(../images/parallax/contact.jpg) no-repeat;*/
+	background-color: rgb(46, 148, 62);
 }
 
 .contact-form {
