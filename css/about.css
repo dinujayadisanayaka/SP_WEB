@@ -34,8 +34,7 @@
 /* Services Section */
 #services {
     padding: 100px 0;
-    background-color: rgba(61, 197, 82, 0.89);
-
+    background-color: rgba(46, 148, 62, 0.96);
 }
 #services .service {
     padding-left: 20px;
@@ -48,7 +47,7 @@
 }
 #services h3 {
     padding: 10px 0;
-    text-transform: uppercase;
+    text-transform: unset;
     font-family: 'Roboto', sans-serif;
 
 }

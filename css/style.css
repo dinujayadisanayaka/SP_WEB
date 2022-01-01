@@ -655,7 +655,7 @@ section {
 }
 
 .menu-bg {
-	background:#10914588;
+	background: rgba(13, 115, 55, 0.75);
 }
 
 #main-menu ul {
@@ -2797,7 +2797,7 @@ li.comment ol.comment-sub {
 
 #contact {
 	/*background:url(../images/parallax/contact.jpg) no-repeat;*/
-	background-color: rgb(46, 148, 62);
+	background-color: rgba(46, 148, 62, 0.96);
 }
 
 .contact-form {
