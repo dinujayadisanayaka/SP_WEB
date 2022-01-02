@@ -2124,8 +2124,8 @@ ul.timeline {
 
 
 #featured-works {
-	background:#FBFBFB;
-	padding-top: 70px;
+	background: rgba(255, 255, 255, 0.71);
+	padding-top: 40px;
 }
 
 .featured-work-carousel {
@@ -2137,6 +2137,7 @@ ul.timeline {
 	height: auto;
 	z-index: 300;
 	cursor: pointer;
+	margin-right: 10px;
 }
 
 #featured-works .item .fworks-image {
@@ -2339,7 +2340,7 @@ ul.timeline {
 }
 
 #single-work-slider {
-	margin-bottom: 30px;
+	margin-bottom: -70px;
 }
 
 #single-work-slider .owl-controls {
