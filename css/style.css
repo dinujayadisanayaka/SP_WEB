@@ -2124,7 +2124,7 @@ ul.timeline {
 
 
 #featured-works {
-	background: rgba(255, 255, 255, 0.71);
+	background: rgb(177, 215, 158);
 	padding-top: 40px;
 }
 
@@ -2195,6 +2195,7 @@ ul.timeline {
 	height: 50px;
 	margin: 0px;
 	border-radius: 100%;
+	margin-left: 50px;
 }
 
 #featured-works .item:hover .hover-link, #featured-works .item:hover .featured-caption {
