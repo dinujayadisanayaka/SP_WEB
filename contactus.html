@@ -89,7 +89,7 @@
 
 		<!--start page-header -->
 		<section id="page-header" class="parallax">
-             <div class="overlay"></div>
+<!--             <div class="overlay"></div>-->
 			<div class="container">
 				<h1>Contact Us</h1>
                 <!--Start Breadcrumb-->
@@ -111,7 +111,7 @@
 		</section>
 		<!--End page-header -->
 
-
+<br><br><br><br>
   <!-- About Section -->
 <!--  <div id="team">-->
 <!--      <div class="container">-->
@@ -129,55 +129,191 @@
 <!--  </div>-->
 
 
-  <!--Start Contact-->
-  <section id="contact" class="section parallax">
-      <div class="overlay"></div>
+
+
+
+
+
+
+
+<!--  <div class="map-responsive">-->
+<!--      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18416.372358361285!2d80.20704942271507!3d7.427404462241701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3254ade6fa843%3A0x4556e93a6559831!2sSp%20home%20construction%20pvtltd!5e0!3m2!1sen!2slk!4v1641201420331!5m2!1sen!2slk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
+
+<!--  </div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Contact Start -->
+  <div class="contact">
       <div class="container">
+<!--          <div class="section-header text-center">-->
+<!--              <h2>Contact for any query</h2>-->
+<!--          </div>-->
           <div class="row">
-
-<!--              <div class="title-box text-center white">-->
-<!--                  <h2 class="title">Contact</h2>-->
-<!--              </div>-->
-          </div>
-
-          <!--Start contact form-->
-          <div class="col-md-8 col-md-offset-2 contact-form">
-
-              <div class="contact-info text-center">
-                  <p>Peellakandawatta,
-                      Walakumbura,
-                      Narammala</p>
-                  <br>
-                  <p>info@sphome.lk </p><br>
-                  <p>+94 71 4940 210 </p>
-                  <p>+94 77 8060 860 </p>
-              </div>
-
-              <form method="post">
-                  <div class="row">
-                      <div class="col-md-4">
-                          <input class="form-control" id="name" placeholder="Full Name" type="text">
+              <div class="col-md-4">
+                  <div class="contact-info">
+                      <h2>Quick Contact Info</h2>
+                      <div class="contact-info-item">
+                          <div class="contact-info-icon">
+                              <i class="fa fa-location-arrow"></i>
+                          </div>
+                          <div class="contact-info-text">
+<!--                              <h3>Address</h3>-->
+                              <p>Peellakandawatta,<br>
+                                  Walakumbura,<br>
+                                  Narammala</p>
+                          </div>
                       </div>
-                      <div class="col-md-4">
-                          <input class="form-control" id="email" placeholder="Your Email" type="email">
+                      <div class="contact-info-item">
+                          <div class="contact-info-icon">
+                              <i class="fa fa-phone"></i>
+                          </div>
+                          <div class="contact-info-text">
+<!--                              <h3>Call Us</h3>-->
+                              <p>+94 71 4940 210</p>
+                              <p>+94 77 8060 860</p>
+                          </div>
                       </div>
-                      <div class="col-md-4">
-                          <input class="form-control" id="subject" placeholder="Subject" type="text">
-                      </div>
-                      <div class="col-md-12">
-                          <textarea class="form-control" id="message" rows="7" placeholder="Your Message"></textarea>
-                      </div>
-                      <div class="col-md-12 text-right">
-                          <button type="submit" class="btn btn-green">SEND MESSAGE</button>
+                      <div class="contact-info-item">
+                          <div class="contact-info-icon">
+                              <i class="fa fa-envelope"></i>
+                          </div>
+                          <div class="contact-info-text">
+<!--                              <h3>Email Us</h3>-->
+                              <p>info@sphome.lk</p>
+                          </div>
                       </div>
                   </div>
-              </form>
+              </div>
+              <div class="col-md-7">
+                  <div class="contact-form">
+                      <div id="success"></div>
+                      <form name="sentMessage" id="contactForm" novalidate="novalidate" action="mailto:contact@yourdomain.com">
+                          <div class="control-group">
+                              <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                              <p class="help-block text-danger"></p>
+                          </div>
+                          <div class="control-group">
+                              <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                              <p class="help-block text-danger"></p>
+                          </div>
+                          <div class="control-group">
+                              <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                              <p class="help-block text-danger"></p>
+                          </div>
+                          <div class="control-group">
+                              <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                              <p class="help-block text-danger"></p>
+                          </div>
+                          <div>
+                              <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+              <div class="col-md-12">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18416.372358361285!2d80.20704942271507!3d7.427404462241701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3254ade6fa843%3A0x4556e93a6559831!2sSp%20home%20construction%20pvtltd!5e0!3m2!1sen!2slk!4v1641201420331!5m2!1sen!2slk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
           </div>
-          <!--End contact form-->
+      </div>
+  </div>
+  <!-- Contact End -->
 
-      </div> <!-- /.container-->
-  </section>
-  <!--End Contact-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  &lt;!&ndash;Start Contact&ndash;&gt;-->
+<!--  <section id="contact" class="section parallax">-->
+<!--      <div class="overlay"></div>-->
+<!--      <div class="container">-->
+<!--&lt;!&ndash;          <div class="row">&ndash;&gt;-->
+
+<!--&lt;!&ndash;              <div class="title-box text-center white">&ndash;&gt;-->
+<!--&lt;!&ndash;                  <h2 class="title">Contact</h2>&ndash;&gt;-->
+<!--&lt;!&ndash;              </div>&ndash;&gt;-->
+
+<!--                <div class="map-responsive">-->
+<!--                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18416.372358361285!2d80.20704942271507!3d7.427404462241701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3254ade6fa843%3A0x4556e93a6559831!2sSp%20home%20construction%20pvtltd!5e0!3m2!1sen!2slk!4v1641201420331!5m2!1sen!2slk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
+<!--                </div>-->
+<!--&lt;!&ndash;          </div>&ndash;&gt;-->
+
+
+<!--          &lt;!&ndash;Start contact form&ndash;&gt;-->
+<!--          <div class="col-md-8 col-md-offset-2 contact-form">-->
+
+<!--              <div class="contact-info text-center">-->
+<!--                  <p>Peellakandawatta,-->
+<!--                      Walakumbura,-->
+<!--                      Narammala</p>-->
+<!--                  <br>-->
+<!--                  <p>info@sphome.lk </p><br>-->
+<!--                  <p>+94 71 4940 210 </p>-->
+<!--                  <p>+94 77 8060 860 </p>-->
+<!--              </div>-->
+
+
+<!--&lt;!&ndash;              <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"&ndash;&gt;-->
+<!--&lt;!&ndash;                   src="https://maps.google.com/maps?q=sphome&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>&ndash;&gt;-->
+<!--&lt;!&ndash;                  <a href="https://123movies-to.org">123 movies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>&ndash;&gt;-->
+<!--&lt;!&ndash;                  <a href="https://www.embedgooglemap.net">google map for web site</a>&ndash;&gt;-->
+<!--&lt;!&ndash;                  <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>&ndash;&gt;-->
+<!--&lt;!&ndash;              </div>&ndash;&gt;-->
+
+
+
+<!--&lt;!&ndash;              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18416.372358361285!2d80.20704942271507!3d7.427404462241701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3254ade6fa843%3A0x4556e93a6559831!2sSp%20home%20construction%20pvtltd!5e0!3m2!1sen!2slk!4v1641201420331!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>&ndash;&gt;-->
+
+
+<!--              <form method="post">-->
+<!--                  <div class="row">-->
+<!--                      <div class="col-md-4">-->
+<!--                          <input class="form-control" id="name" placeholder="Full Name" type="text">-->
+<!--                      </div>-->
+<!--                      <div class="col-md-4">-->
+<!--                          <input class="form-control" id="email" placeholder="Your Email" type="email">-->
+<!--                      </div>-->
+<!--                      <div class="col-md-4">-->
+<!--                          <input class="form-control" id="subject" placeholder="Subject" type="text">-->
+<!--                      </div>-->
+<!--                      <div class="col-md-12">-->
+<!--                          <textarea class="form-control" id="message" rows="7" placeholder="Your Message"></textarea>-->
+<!--                      </div>-->
+<!--                      <div class="col-md-12 text-right">-->
+<!--                          <button type="submit" class="btn btn-green">SEND MESSAGE</button>-->
+<!--                      </div>-->
+<!--                  </div>-->
+<!--              </form>-->
+<!--          </div>-->
+<!--          &lt;!&ndash;End contact form&ndash;&gt;-->
+
+<!--      </div> &lt;!&ndash; /.container&ndash;&gt;-->
+<!--  </section>-->
+<!--  &lt;!&ndash;End Contact&ndash;&gt;-->
 
 
    <!--Start Footer-->
