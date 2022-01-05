@@ -146,14 +146,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .btn-custom {
 	text-transform: uppercase;
-	color: #fff;
-	text-shadow: 0 0 3px #4cc460;
-	background-color: #09753ad5;
+	color: #ffffff;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-shadow: 30px 30px 30px #5070da;
+	background-color: rgba(18, 183, 91, 0.88);
 	border: 0;
 	padding: 14px 20px;
 	margin: 0;
-	font-size: 17px;
-	border-radius: 12px 0 12px 0;
+	font-size: 27px;
 	margin-top: 20px;
 	transition: all 0.5s;
 }
@@ -172,14 +172,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) no-repeat center bottom;
+	background: url(../img/slidde/test23.jpg) no-repeat center bottom;
+	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.40);
+	background: rgba(96, 79, 79, 0.4);
 }
 .intro h1 {
 	color: #fff;
@@ -201,8 +202,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 40px;
 }
 header .intro-text {
-	padding-top: 150px;
-	padding-bottom: 200px;
+	padding-top: 100px;
+	padding-bottom: 400px;
 	text-align: center;
 }
 #eco {

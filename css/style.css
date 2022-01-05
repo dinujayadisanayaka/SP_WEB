@@ -652,6 +652,7 @@ section {
 #main-menu {
 	z-index: 300;
 	visibility:visible;
+
 }
 
 .menu-bg {
@@ -662,11 +663,13 @@ section {
 	display: block;
 	width: 100%;
 	text-align: center;
+
 }
 
 #main-menu ul li {
 	display: inline-block;
 	position: relative;
+
 }
 
 #main-menu ul li a {
@@ -678,6 +681,7 @@ section {
 	font-size: 15px;
 	text-transform: uppercase;
 	transition: all 0.25s ease 0s;
+
 }
 
 #main-menu ul li a:hover {
@@ -685,7 +689,7 @@ section {
 }
 
 #main-menu ul.nav>li>a:hover, #main-menu ul.nav>li>a:focus {
-	background: none;
+	background: rgba(87, 203, 71, 0.41);
 }
 
 #main-menu ul li.active > a, #main-menu ul li.active.has-child > a {
@@ -696,6 +700,7 @@ section {
 .clear-toggle {
 	display:none;
 	clear:both;
+
 }
 
 .navbar-toggle {
@@ -707,6 +712,7 @@ section {
 	position: absolute;
 	right: 0px;
 	padding-right: 0;
+
 }
 
 .logo {
