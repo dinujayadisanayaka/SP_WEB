@@ -1961,11 +1961,11 @@ ul.timeline {
 	height: 70px;
 	line-height: 70px;
 	text-align: center;
-	color: #FFF;
+	/*color: #0c0000;*/
 	font-size: 30px;
 	float: left;
 	border-radius: 50%;
-	border: 1px solid #FFF;
+	/*border: 1px solid #000000;*/
 	-webkit-transition: all 0.7s ease-in-out;
 	-moz-transition: all 0.7s ease-in-out;
 	-ms-transition: all 0.7s ease-in-out;
@@ -1974,8 +1974,8 @@ ul.timeline {
 }
 
 .video-caption:hover .video-icon{
-	background:#FFF;
-	border-color:#FFF;
+	background: rgba(255, 255, 255, 0);
+	border-color: rgba(255, 255, 255, 0);
 	color:#7EC13F;
 }
 
@@ -2043,13 +2043,14 @@ ul.timeline {
 
 
 #testimonials {
-	background:url(../images/parallax/testimonials.jpg) no-repeat;
+	/*background:url(../img/team.jpg) no-repeat;*/
+	background-color: #2b542c;
 }
 
 #testimonials {
 	color:#fff;
 	position:relative;
-	padding:100px 0px;
+	padding:80px 0px;
 }
 
 #testimonials .container {
@@ -2065,8 +2066,8 @@ ul.timeline {
 
 #testimonials .testimonial-pic {
 	margin: 10px 0px;
-	width: 120px;
-	height: 120px;
+	width: 400px;
+	height: 276px;
 	border-radius: 50%;
 }
 
@@ -3119,4 +3120,71 @@ footer {
 
 	position:absolute;
 
+}
+------------------------------------for pop up ----------------------------
+.open-button {
+	background-color: #555;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	position: fixed;
+	bottom: 23px;
+	right: 28px;
+	width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	border: 3px solid #f1f1f1;
+	z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+	max-width: 300px;
+	padding: 10px;
+	background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+	background-color: #04AA6D;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom:10px;
+	opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+	background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+	opacity: 1;
 }
